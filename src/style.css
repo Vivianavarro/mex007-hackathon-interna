@@ -1,0 +1,83 @@
+#print-poster{
+  
+    text-align: center;
+  
+}
+
+#navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: -20rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+
+input[type=text] {
+    width: 50%;
+     height: 40px;/* cambie esta linea */
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color:white;
+    background-image: url('logotipos/magnifying-glass.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+ }
+
+ 
+ .movie-genre{
+   
+        background: rgb(19, 12, 17);
+        border: none;
+        width: 140px;
+        border-radius: 10px;
+        margin: 10px 10px 10px 22px;
+        padding: 11px 3px 9px;
+        font-size: 15px;
+        font-weight: bold;
+        color: whitesmoke;
+        display: inline-block;
+ }
+ 
+ 
+ .carousel-inner{
+  margin-bottom:  5%;
+ }
+ 
+ .wrapper {
+    display: inline-block;
+    margin: 8% 0 8% 8%;
+    padding-bottom: 10px;
+    width: 140px;
+    height: 206px;
+  }
+ 
+
+ 
+  .tamaño{
+      width: 100%;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+  }
+ 
+  .gender{
+    padding: 4% 0 0;
+    margin: auto;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(43, 31, 31);
+ }
+ 
+  .wrapper-text {
+    background: rgb(45, 197, 126);
+    padding-bottom: 5px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
